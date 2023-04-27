@@ -30,6 +30,9 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 
+/* Cocktail swap prototype */
+void swap_nodes(listint_t *node_1, listint_t *node_2, listint_t **list);
+
 /*quick_sort prototypes */
 void swap(int *a, int *b);
 int partition(int *array, size_t size, int low, int high);

@@ -33,6 +33,8 @@ void heap_sort(int *array, size_t size);
 /* Cocktail swap prototype */
 void swap_nodes(listint_t *node_1, listint_t *node_2, listint_t **list);
 
+void merge(int *array, size_t left, size_t mid, size_t right);
+void merge_sort_helper(int *array, size_t left, size_t right);
 /*quick_sort prototypes */
 void swap(int *a, int *b);
 int partition(int *array, size_t size, int low, int high);

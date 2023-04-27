@@ -40,6 +40,11 @@ void merge_sort_helper(int *array, size_t left, size_t right);
 void swap_ints(int *a, int *b);
 void max_heapify(int *array, size_t size, size_t base, size_t root);
 
+/* Radix sort */
+int get_max(int *array, int size);
+void radix_counting_sort(int *array, size_t size, int sig, int *buff);
+void radix_sort(int *array, size_t size);
+
 /*quick_sort prototypes */
 void swap(int *a, int *b);
 int partition(int *array, size_t size, int low, int high);

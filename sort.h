@@ -35,6 +35,11 @@ void swap_nodes(listint_t *node_1, listint_t *node_2, listint_t **list);
 
 void merge(int *array, size_t left, size_t mid, size_t right);
 void merge_sort_helper(int *array, size_t left, size_t right);
+
+/* heap sort prototype */
+void swap_ints(int *a, int *b);
+void max_heapify(int *array, size_t size, size_t base, size_t root);
+
 /*quick_sort prototypes */
 void swap(int *a, int *b);
 int partition(int *array, size_t size, int low, int high);
